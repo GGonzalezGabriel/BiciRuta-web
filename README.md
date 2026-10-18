@@ -4,6 +4,7 @@ Diagnostico de la tienda web de bicicletas de la compañía BiciRuta S.L.
 
 La estructura de este proyecto es:
 
+```text
 BiciRuta/
 ├── css/estilos.css
 ├── img/logo-biciruta.png
