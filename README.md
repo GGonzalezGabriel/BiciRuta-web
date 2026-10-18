@@ -1,10 +1,13 @@
-# Mini-Proyecto--Bici-Ruta
+# BiciRuta-web
 
 Diagnostico de la tienda web de bicicletas de la compañía BiciRuta S.L.
 
-El proyecto cuenta con un unico archivo html, "index.html", un archivo .gitignore, y un archivo README. La estructura actual es:
+La estructura de este proyecto es:
 
-bicruta-web/
+BiciRuta-web/
+|-- css/estilos.css
+|-- img/logo-bicruta.png
+|-- js/app.js
 |-- .gitignore
 |-- index.html
 |-- README.md
