@@ -19,23 +19,13 @@
 
 <main>
   <h1>Bicicletas y accesorios</h1>
-  <div class="producto"><h2>Bici Urbana U100</h2><p class="precio" style="color:#bbbbbb">389,00 €</p><button onclick="anadir('Bici Urbana U100')">Añadir</button></div>
-  <div class="producto"><h2>Casco Urban M</h2><p class="precio oferta">39,90 €</p><button onclick="anadir('Casco Urban M')">Añadir</button></div>
-  <div class="producto"><h2>Candado U Pro</h2><p class="precio">29,95 €</p><button onclick="anadir('Candado U Pro')">Añadir</button></div>
+  <div class="producto"><h2>Bici Urbana U100</h2><p class="precio" style="color:#bbbbbb">389,00 €</p><button class="btn-anadir" datos-producto="Bici Urbana U100">Añadir</button></div>
+  <div class="producto"><h2>Casco Urban M</h2><p class="precio oferta">39,90 €</p><button class="btn-anadir" datos-producto="Casco Urban M">Añadir</button></div>
+  <div class="producto"><h2>Candado U Pro</h2><p class="precio">29,95 €</p><button class="btn-anadir" datos-producto="Candado U Pro">Añadir</button></div>
   <p>Productos en el carrito: <span id="contador">0</span></p>
 </main>
 
-<script>
-  let carrito = [];
-  function anadir(producto) {
-    carrito.push(producto);
-    document.getElementById('contador').textContent = carrito.lenght;
-    console.log('Añadido:', producto);
-  }
-  document.getElementById('boton-menu').addEventListener('click', function () {
-    document.getElementById('menu').classList.toggle('abierto');
-  });
-</script>
+<script src="js/app.js"></script>
 
 </body>
 
