@@ -12,7 +12,7 @@ BiciRuta/
 ├── .gitignore
 ├── index.html
 └── README.md
-```text
+```
 
 Para verlo con la extensión "Live Server", hay que pulsar el botón "Go Live" en la parte inferior derecha del Visual Studio Code. Esto abrirá automaticamente una ventana del navegador con la página web en desarollo.
 
