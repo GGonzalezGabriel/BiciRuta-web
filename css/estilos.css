@@ -4,4 +4,4 @@ body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
   nav ul.abierto { display: block; }
   .producto { background: white; margin: 10px; padding: 15px; width: 220px; display: inline-block; }
   .precio { color: #2C7A3F; font-size: 22px; font-weight: bold; }
-  .oferta { color: #bbbbbb; }
+  .oferta { color: #ff0000; }
